@@ -45,8 +45,8 @@
     position: relative;
     opacity: 80%;
     $button-size: 80px;
-    width: 80px;
-    height: 80px;
+    width: $button-size;
+    height: $button-size;
     border: none;
     border-radius: 50%;
     color: $white;
@@ -95,6 +95,20 @@
 
   @media (max-width: #{$mediaSM}) {
     $paddings-horizontal: 14px;
+
+    &__video-wrapper {
+      height: 180px;
+      margin-bottom: 10px;
+    }
+
+    &__play-button {
+      $button-size: 60px;
+      width: $button-size;
+      height: $button-size;
+      border-top-width: 8px;
+      border-bottom-width: 8px;
+      border-left-width: 10px;
+    }
     &__description {
       padding: 0 $paddings-horizontal 9px;
     }
