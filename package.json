@@ -16,8 +16,5 @@
     "vite": "^4.1.0",
     "vite-plugin-handlebars": "^1.6.0",
     "vite-plugin-image-optimizer": "^1.1.2"
-  },
-  "dependencies": {
-    "swiper": "^8.4.7"
   }
 }
